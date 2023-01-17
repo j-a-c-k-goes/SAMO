@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "samo"
+version = "0.1.0"
+description = "SAMO® is a bot-version of Jean-Michel Basquiat's SAMO quotes. The bot generates content from a wordlist."
+authors = ["Jack <jack@flnpb.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "3.7.4.post0"
+async-timeout = "3.0.1"
+attrs = "22.1.0"
+chardet = "4.0.0"
+idna = "3.4"
+meson = "0.63.2"
+multidict = "6.0.2"
+python-discord = "1.7.3"
+python-dotenv = "0.21.0"
+typing-extensions = "4.3.0"
+yarl = "1.8.1"
+discord-py = "^2.1.0"
+certifi = "^2022.12.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
